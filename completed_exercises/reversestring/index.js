@@ -28,3 +28,11 @@ module.exports = reverse;
 //
 //   return reversed;
 // }
+
+// ^^ new syntax for loops -- good for problems like this, but wouldn't work if you wanted to loop through every third or fourth element
+
+// variable declaration (let character)
+// iterable object (characters of str)
+// set each character = temporary variable (character)
+// take that character and add it on to the beginning of the st reversed
+// after for loop => entire string is reversed

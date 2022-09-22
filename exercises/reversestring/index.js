@@ -6,6 +6,10 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-function reverse(str) {}
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
 
 module.exports = reverse;
+
+// some interviewers may ask you NOT to use .reverse
